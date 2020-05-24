@@ -7,7 +7,7 @@ using System;
 namespace SeleniumBDD
 {
    
-    [TestClass]
+    [Test]
     public class Program
     {
        // IWebDriver driver;
@@ -24,7 +24,7 @@ namespace SeleniumBDD
             page.LoginCheck();
             page.PasswordCheck();
             page.SubmitCheck();
-            driver.Quit()
+            driver.Quit();
         }
 
 
